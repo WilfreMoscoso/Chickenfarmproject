@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title></title>
+   <link rel="stylesheet"  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script> 
+     <link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+     <link rel="stylesheet" type="text/css" href="style5.css">
+</head>
+
+<body>
+ 
+
+ 
+
+
+
+
+<div class="navbar">
+  <a class="active" href="#"><i class="fa fa-fw fa-home"></i> Home</a> 
+  <a href="#div2"><i class="fa fa-envelope-open"></i> About</a> 
+  <a href="#div4"><i class="fa fa-fw fa-envelope"></i> Contact</a> 
+  <a href="signup.php"><i class="fa fa-fw fa-user"></i>Create account</a>
+</div>
+
+
+ 
+
+<center>
+ 
+  <div class="flyer" id="div5">
+     <h1 id="output" style="transition: 0.1s ease;color: skyblue;letter-spacing: 3px;font-family: OCR A Std, monospace;font-size: 50px"></h1><br>
+      <img class="img1" src="chick.avif" width="30%" height="450px">
+  
+ 
+  </div>
+<div class="container">
+<br>
+
+ 
+ <div class="div2"><br>
+  <h1>Sign-in</h1>
+   <form method="post" action="loginengine.php">
+    <input placeholder=" email" type="email" name="email">
+     <input placeholder=" password" type="password" name="password"><br><br>
+       <button name="login">Login
+       </button>
+
+  </form><br><br><br>
+  <p>Dont have an account?</p><br>
+  <a href="signup.php"  style="color: blue"><p class="signup">Sign-up</p></a>
+</div>
+  
+
+</div>
+ 
+ 
+ <div  id="div1" class="tile bottom-right">
+   <img class="image2" src="olsen.jpeg" width="95%" height="800px">
+     <center><br><br><br><br><br><br><br><br>
+       <p style="font-family: sans-serif;letter-spacing: 2px;"><strong>We have different varieties of chickens</strong></p>
+   </center>
+<div id="div2"></div>
+   <br><h1>About page</h1>
+ 
+   <center><p style="font-size: 20px">Online of chicken refers to the practice of selling chicken products through online platforms<br>such as websites or mobile applications. It allows customers to browse and purchase<br> various chicken products without the need to physically visit a store. This can<br> be done by independent sellers, local farms, or even large-scale<br> poultry companies.</p></center><br>
+   <img class="img3" src="chicken.jpeg" width="95%" height="500vh">
+   <br>   <br>   <br>
+   <div class="welcome">
+     <br>
+     <p style="font-family: sans-serif;color: white;font-size: 30px">Welcome!</p>
+      <h1 style="font-family: sans-serif;color: white;font-size: 30px">Poultry Farm</h1>
+       <p style="font-family: sans-serif;color: white;font-size: 20px">WE PRODUCE QUALITY PRODUCTS IN OUR FARM</p><br>
+       <center><a class="contactclick" href="Contact">Contact us</a></center>
+    
+     </div>   <br>   <br>   <br>   <br>   <br>   <br>
+    <center><h1>Objectives</h1></center><br><br>
+    <center><ol  style="width: 50%; font-size: 20px">
+      
+      <li><strong>Increase reach:</strong> An online system allows businesses to expand their customer base beyond their local
+ area, reaching potential customers from around the world.
+      </li>
+      <br><br>
+      <li><strong>for customers:</strong> Online systems provide convenience for customers by allowing them to browse and purchase products or services at any time and from any where with an internet conection.</li><br><br>
+      <li><strong>Cost-effective:</strong> Running an online business ca often be more cost-effective than a traditional
+      brick-and-mortar store, as it eliminates the need for physical retail space and reduces overhead costs.</li><br><br>
+      <li><strong>Improve customer and insights:</strong> Online systems generate valuable data about customer behavior, preferences, and buying patterns, which can be used to improve marketing strategies and make informed business decisions.</li><br><br>
+       <li><strong>Improve customer experience:</strong> Online systems can offer personalized shopping experiences, easy navigation, and quick access to product information, enhancing overall customer satisfaction.</li>
+   
+    </ol></center>
+      <div class="order"><br><br><br><br><br><br><p style="font-size: 50px;color: white">Order now!</p></div>
+   <div class="contact">
+
+    <center>
+<br><br><br>
+<a class="active" href="#div5" style="font-size: 20px;color: white;text-decoration: none;background-color: transparent;"><i class="fa fa-fw fa-home"></i> Home</a> </a><br>
+      <br><h1 style="color: white">Contact us</h1></center>
+    <center>
+   
+     <form><br><br>
+      <div class="con" id="div4" >
+       <input style="width: 30%;border-radius: 0px;width: 300px;" type="number" placeholder=" email" name=""><br>
+       <button>submit</button><br><br><br><br><br>
+      <p style="color: white">Contact us: 091631916</p>
+      
+     </form>
+<a  style="color: skyblue" href="https://web.facebook.com/photo/?fbid=1473090519802723&set=a.718202321958217"><p class="fb">visit us on facebook.com</p></a>
+</center>
+</div>
+   </div>
+      <div class="content"><p class="p1"></p></div>
+
+
+
+
+</div>
+
+
+  <script> 
+const letters = ['W', 'e', 'l', 'c', 'o', 'm', 'e',' to',' f','a','r','m',' s','t','o','r','e']; // array of letters
+const delay = 200; // delay in milliseconds
+ 
+function displayLetters() {
+  let outputDiv = document.getElementById('output');
+  let currentIndex = 0;
+ 
+  function loop() {
+    if (currentIndex < letters.length) {
+      outputDiv.innerHTML += letters[currentIndex];
+      currentIndex++;
+      setTimeout(loop, delay);
+    }
+  }
+ 
+  loop();
+}
+ 
+displayLetters();
+
+
+
+let elementsArray = document.querySelectorAll(".tile");
+console.log(elementsArray);
+window.addEventListener('scroll', fadeIn ); 
+function fadeIn() {
+    for (var i = 0; i < elementsArray.length; i++) {
+        var elem = elementsArray[i]
+        var distInView = elem.getBoundingClientRect().top - window.innerHeight + 20;
+        if (distInView < 0) {
+            elem.classList.add("inView");
+        } else {
+            elem.classList.remove("inView");
+        }
+    }
+}
+fadeIn();
+
+
+
+</script>
+
+ 
+<script type="text/javascript">
+document.addEventListener('DOMContentLoaded', function() {
+  var scrollLinks = document.querySelectorAll('[href^="#"]');
+  
+  scrollLinks.forEach(function(link) {
+    link.addEventListener('click', function(e) {
+      e.preventDefault();
+      
+      var targetId = this.getAttribute('href');
+      var targetElement = document.querySelector(targetId);
+      
+      if (targetElement) {
+        targetElement.scrollIntoView({
+          behavior: 'smooth'
+        });
+      }
+    });
+  });
+});
+
+
+
+</script>
+</center>
+
+
+
+<style type="text/css">
+  body {font-family: Arial, Helvetica, sans-serif;}
+
+.navbar {
+  width: 100%;
+  background-color: cornflowerblue;
+  overflow: auto;
+}
+
+.navbar a {
+  float: left;
+  padding: 12px;
+  color: white;
+  text-decoration: none;
+  font-size: 17px;
+  height: 40px;
+}
+
+.navbar a:hover {
+  background-color: black;
+}
+
+.active {
+  background-color: black;
+}
+
+@media screen and (max-width: 500px) {
+  .navbar a {
+    float: none;
+    display: block;
+  }
+}
+</style>
+
+</body>
+</html>
+ 
+

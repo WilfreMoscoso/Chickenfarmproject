@@ -1,0 +1,194 @@
+body{
+		background-color: cornflowerblue;
+	}
+
+
+@media only screen and (max-width: 600px) {
+
+.motherdiv{
+	display: flex;
+	width: 95%;
+	height: 500px;
+	background-color: dodgerblue;
+	border-radius: 20px;
+	position: relative;
+	top: 50px;
+	border: 1px solid white;
+}
+
+img{
+	width: 150px;
+	height: 130px;
+	position: absolute;
+	left: 130px;
+	top: 300px;
+	border-radius: 100%;
+}
+.div1{
+	position: relative;
+	left: 30%;
+	width: 60%;
+	height: 500px;
+	background: linear-gradient(to right,dodgerblue,deepskyblue);
+	border-radius: 50px;
+}
+button{
+	position: relative;
+	left: -38%;
+	width: 100px;
+	height: 50px;
+	font-size: 20px;
+	border: 1px solid white;
+	background-color: transparent;
+	color: white;
+	transition: 0.1s ease;
+}
+button:hover{
+	transform: scale(1.1);
+}
+
+input{
+	transform: translate(-10%,0%);
+	width: 100%;
+	margin-bottom: 2rem;
+	height: 40px;
+	border-radius: 10px;
+	border:none;
+}
+.bardiv{
+	width: 100%;
+	height: 40px;
+	background-color: white;
+	border-top-left-radius: 50%; 
+		border-bottom-right-radius: 50%; 
+}
+
+}
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+
+img{
+	width: 150px;
+	height: 130px;
+	position: absolute;
+	left: -250px;
+	top: 300px;
+	border-radius: 100%;
+}
+.motherdiv{
+	box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+	width: 80%;
+	height: 500px;
+	background-color: dodgerblue;
+	border-radius: 10px;
+	position: relative;
+	top: 50px;
+	border: 1px solid white;
+}
+.div1{
+	position: relative;
+	left: 30%;
+	width: 30%;
+	height: 500px;
+	background: linear-gradient(to right,dodgerblue,deepskyblue);
+	border-radius: 50px;
+}
+button{
+	position: relative;
+	left: -35%;
+	width: 100px;
+	height: 50px;
+	font-size: 20px;
+	border: 1px solid white;
+	background-color: transparent;
+	color: white;
+	transition: 0.1s ease;
+}
+button:hover{
+	transform: scale(1.1);
+}
+
+input{
+	transform: translate(-40%,0%);
+	width: 150%;
+	margin-bottom: 2rem;
+	height: 40px;
+	border-radius: 10px;
+	border:none;
+}
+
+
+
+.bardiv{
+	width: 100%;
+	height: 40px;
+	background-color: white;
+	border-top-left-radius: 50%; 
+		border-bottom-right-radius: 50%; 
+}
+
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {...}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+
+.motherdiv{
+	box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+	width: 40%;
+	height: 500px;
+	background-color: dodgerblue;
+	border-radius: 10px;
+	position: relative;
+	top: 50px;
+	border: 1px solid white;
+}
+.div1{
+	position: relative;
+	left: 30%;
+	width: 30%;
+	height: 500px;
+	background: linear-gradient(to right,dodgerblue,deepskyblue);
+	border-radius: 50px;
+}
+
+button{
+	position: relative;
+	left: -35%;
+	width: 100px;
+	height: 50px;
+	font-size: 20px;
+	border: 1px solid white;
+	background-color: transparent;
+	color: white;
+	transition: 0.1s ease;
+}
+button:hover{
+	transform: scale(1.1);
+}
+
+
+input {
+	transform: translate(-40%,0%);
+	width: 150%;
+	margin-bottom: 2rem;
+	height: 40px;
+	border-radius: 10px;
+	border:none;
+}
+
+.bardiv{
+	width: 100%;
+	height: 40px;
+	background-color: white;
+	border-top-left-radius: 50%; 
+		border-bottom-right-radius: 50%; 
+}
+
+
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {...}
